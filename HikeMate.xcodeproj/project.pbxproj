@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D835892F2CBBF61A0047A157 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835892E2CBBF61A0047A157 /* Category.swift */; };
+		D83589472CBBFDF80047A157 /* PackingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83589462CBBFDF80047A157 /* PackingListView.swift */; };
+		D835894D2CBBFE1E0047A157 /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835894C2CBBFE1E0047A157 /* TripDetailsView.swift */; };
+		D835894F2CBBFE2E0047A157 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835894E2CBBFE2E0047A157 /* HeaderView.swift */; };
+		D83589512CBBFEAD0047A157 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83589502CBBFEAD0047A157 /* FooterView.swift */; };
+		D83589532CBC144F0047A157 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83589522CBC144F0047A157 /* ColorExt.swift */; };
+		D83589552CBC15BC0047A157 /* mountain.svg in Resources */ = {isa = PBXBuildFile; fileRef = D83589542CBC15BC0047A157 /* mountain.svg */; };
+		D83589582CBC16A70047A157 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = D83589572CBC16A70047A157 /* SVGKit */; };
+		D835895A2CBC16A70047A157 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D83589592CBC16A70047A157 /* SVGKitSwift */; };
+		D835895F2CBC1B890047A157 /* SwiftSVG in Frameworks */ = {isa = PBXBuildFile; productRef = D835895E2CBC1B890047A157 /* SwiftSVG */; };
 		D857F4742CBBF4B5009CFBE1 /* HikeMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857F4732CBBF4B5009CFBE1 /* HikeMateApp.swift */; };
 		D857F4762CBBF4B5009CFBE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857F4752CBBF4B5009CFBE1 /* ContentView.swift */; };
 		D857F4782CBBF4B6009CFBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D857F4772CBBF4B6009CFBE1 /* Assets.xcassets */; };
 		D857F47B2CBBF4B6009CFBE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D857F47A2CBBF4B6009CFBE1 /* Preview Assets.xcassets */; };
+		D877A7BE2CBE73DE007D21D1 /* InputItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877A7BD2CBE73DE007D21D1 /* InputItemView.swift */; };
+		D877A7C02CBE73F4007D21D1 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877A7BF2CBE73F4007D21D1 /* CategoryItemView.swift */; };
+		D877A7C22CBECED3007D21D1 /* Category+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877A7C12CBECED3007D21D1 /* Category+Codable.swift */; };
+		D877A7C42CBEFC10007D21D1 /* RecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877A7C32CBEFC10007D21D1 /* RecommendationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D835892E2CBBF61A0047A157 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D83589462CBBFDF80047A157 /* PackingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListView.swift; sourceTree = "<group>"; };
+		D835894C2CBBFE1E0047A157 /* TripDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
+		D835894E2CBBFE2E0047A157 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D83589502CBBFEAD0047A157 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		D83589522CBC144F0047A157 /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		D83589542CBC15BC0047A157 /* mountain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mountain.svg; sourceTree = "<group>"; };
+		D835895C2CBC198B0047A157 /* mountain.svg */ = {isa = PBXFileReference; lastKnownFileType = text; name = mountain.svg; path = HikeMate/mountain.svg; sourceTree = "<group>"; };
 		D857F4702CBBF4B5009CFBE1 /* HikeMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D857F4732CBBF4B5009CFBE1 /* HikeMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeMateApp.swift; sourceTree = "<group>"; };
 		D857F4752CBBF4B5009CFBE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D857F4772CBBF4B6009CFBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D857F47A2CBBF4B6009CFBE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D877A7BD2CBE73DE007D21D1 /* InputItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputItemView.swift; sourceTree = "<group>"; };
+		D877A7BF2CBE73F4007D21D1 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		D877A7C12CBECED3007D21D1 /* Category+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+Codable.swift"; sourceTree = "<group>"; };
+		D877A7C32CBEFC10007D21D1 /* RecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,15 +52,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D835895A2CBC16A70047A157 /* SVGKitSwift in Frameworks */,
+				D83589582CBC16A70047A157 /* SVGKit in Frameworks */,
+				D835895F2CBC1B890047A157 /* SwiftSVG in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83589292CBBF5B30047A157 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D835892E2CBBF61A0047A157 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D835892A2CBBF5C20047A157 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D83589462CBBFDF80047A157 /* PackingListView.swift */,
+				D877A7BD2CBE73DE007D21D1 /* InputItemView.swift */,
+				D835894C2CBBFE1E0047A157 /* TripDetailsView.swift */,
+				D877A7BF2CBE73F4007D21D1 /* CategoryItemView.swift */,
+				D835894E2CBBFE2E0047A157 /* HeaderView.swift */,
+				D83589502CBBFEAD0047A157 /* FooterView.swift */,
+				D877A7C32CBEFC10007D21D1 /* RecommendationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D835892B2CBBF5C80047A157 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D857F4672CBBF4B4009CFBE1 = {
 			isa = PBXGroup;
 			children = (
+				D835895C2CBC198B0047A157 /* mountain.svg */,
 				D857F4722CBBF4B5009CFBE1 /* HikeMate */,
 				D857F4712CBBF4B5009CFBE1 /* Products */,
 			);
@@ -51,10 +110,16 @@
 		D857F4722CBBF4B5009CFBE1 /* HikeMate */ = {
 			isa = PBXGroup;
 			children = (
+				D835892B2CBBF5C80047A157 /* ViewModels */,
+				D835892A2CBBF5C20047A157 /* Views */,
+				D83589292CBBF5B30047A157 /* Models */,
 				D857F4732CBBF4B5009CFBE1 /* HikeMateApp.swift */,
 				D857F4752CBBF4B5009CFBE1 /* ContentView.swift */,
 				D857F4772CBBF4B6009CFBE1 /* Assets.xcassets */,
 				D857F4792CBBF4B6009CFBE1 /* Preview Content */,
+				D83589522CBC144F0047A157 /* ColorExt.swift */,
+				D83589542CBC15BC0047A157 /* mountain.svg */,
+				D877A7C12CBECED3007D21D1 /* Category+Codable.swift */,
 			);
 			path = HikeMate;
 			sourceTree = "<group>";
@@ -83,6 +148,11 @@
 			dependencies = (
 			);
 			name = HikeMate;
+			packageProductDependencies = (
+				D83589572CBC16A70047A157 /* SVGKit */,
+				D83589592CBC16A70047A157 /* SVGKitSwift */,
+				D835895E2CBC1B890047A157 /* SwiftSVG */,
+			);
 			productName = HikeMate;
 			productReference = D857F4702CBBF4B5009CFBE1 /* HikeMate.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,10 @@
 				Base,
 			);
 			mainGroup = D857F4672CBBF4B4009CFBE1;
+			packageReferences = (
+				D83589562CBC16A70047A157 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				D835895D2CBC1B890047A157 /* XCRemoteSwiftPackageReference "SwiftSVG" */,
+			);
 			productRefGroup = D857F4712CBBF4B5009CFBE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83589552CBC15BC0047A157 /* mountain.svg in Resources */,
 				D857F47B2CBBF4B6009CFBE1 /* Preview Assets.xcassets in Resources */,
 				D857F4782CBBF4B6009CFBE1 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +213,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D857F4762CBBF4B5009CFBE1 /* ContentView.swift in Sources */,
+				D83589532CBC144F0047A157 /* ColorExt.swift in Sources */,
+				D835894D2CBBFE1E0047A157 /* TripDetailsView.swift in Sources */,
+				D83589472CBBFDF80047A157 /* PackingListView.swift in Sources */,
+				D877A7BE2CBE73DE007D21D1 /* InputItemView.swift in Sources */,
+				D877A7C02CBE73F4007D21D1 /* CategoryItemView.swift in Sources */,
+				D877A7C22CBECED3007D21D1 /* Category+Codable.swift in Sources */,
 				D857F4742CBBF4B5009CFBE1 /* HikeMateApp.swift in Sources */,
+				D83589512CBBFEAD0047A157 /* FooterView.swift in Sources */,
+				D835892F2CBBF61A0047A157 /* Category.swift in Sources */,
+				D835894F2CBBFE2E0047A157 /* HeaderView.swift in Sources */,
+				D877A7C42CBEFC10007D21D1 /* RecommendationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HikeMate/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TDY4LHAXQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HikeMate/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TDY4LHAXQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -342,6 +429,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D83589562CBC16A70047A157 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		D835895D2CBC1B890047A157 /* XCRemoteSwiftPackageReference "SwiftSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchoe/SwiftSVG";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D83589572CBC16A70047A157 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D83589562CBC16A70047A157 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		D83589592CBC16A70047A157 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D83589562CBC16A70047A157 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+		D835895E2CBC1B890047A157 /* SwiftSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D835895D2CBC1B890047A157 /* XCRemoteSwiftPackageReference "SwiftSVG" */;
+			productName = SwiftSVG;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D857F4682CBBF4B4009CFBE1 /* Project object */;
 }
